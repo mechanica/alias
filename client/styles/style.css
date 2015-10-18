@@ -1,0 +1,25 @@
+body {
+  .card {
+    background-color: #eee;
+    border-radius: 5px;
+    margin: 10px;
+    display: inline-block;
+    padding: 10px;
+    width: 100px;
+    list-style-position: inside;
+  }
+
+  .button {
+    width: 100px;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+
+    &--success {
+      background-color: green;
+      color: white;
+    }
+  }
+}
